@@ -14,6 +14,6 @@
 1. (in root of the project) ```phantomjs test-phantom.js``` -- *this will not crash and instead takes two screenshots*
 
 ### To prevent the bug via poltergeist ###
-1. goto apps/assets/application.css.scss
+1. goto ```apps/assets/application.css.scss```
 1. comment out line #20 ```@import 'true_type_bug'```
-1. bundle exec rspec -- *this will not fail now*
+1. ```bundle exec rspec``` -- *this will not fail now*

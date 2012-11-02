@@ -11,6 +11,7 @@
 1. ```bundle exec rspec``` -- *this should cause a crash (under Mac OSX Mountain Lion at least)*
   
 ### Do basically the same thing using PhantomJS directly ###
+1. update the URL in ```test-phantom.js``` to point at wherever the code is running
 1. (in root of the project) ```phantomjs test-phantom.js``` -- *this will not crash and instead takes two screenshots*
 
 ### To prevent the bug via poltergeist ###

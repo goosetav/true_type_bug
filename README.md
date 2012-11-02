@@ -1,5 +1,7 @@
 ## Simple Rails App to reproduce jonleighton/poltergeist#44 ##
 
+see jonleighton/poltergeist#44
+
 ### Setup: ###
 
 1. ```cd /your/project/place && git clone git@github.com:goosetav/true_type_bug.git```

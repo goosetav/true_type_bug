@@ -1,6 +1,4 @@
-## Simple Rails App to reproduce jonleighton/poltergeist#44 ##
-
-see jonleighton/poltergeist#44
+## Simple Rails App to reproduce [jonleighton/poltergeist#44](https://github.com/jonleighton/poltergeist/issues/44) ##
 
 ### Setup: ###
 

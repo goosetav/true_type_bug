@@ -12,14 +12,14 @@ describe "poltergeist", :js => true do
   it "takes pretty screenshots with phantomjs" do
     visit root_path
     page.driver.render image, :full => true
-    #Launchy.open image
+    puts "--------------------\n\n"
   end
 
   it "works a second time too" do
     visit root_path
     page.driver.render image, :full => true
-
-    puts "I won't reach here because I died"
+    puts "(I won't reach here because I died)"
+    puts "--------------------\n\n"
   end
 
 end

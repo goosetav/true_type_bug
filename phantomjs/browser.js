@@ -14,9 +14,8 @@ Poltergeist.Browser = (function() {
   Browser.prototype.resetPage = function() {
     var _this = this;
     if (this.page != null) {
-      phantom.clearCookies();
       this.page.release();
-      
+      phantom.clearCookies();
       
     }
     this.page = new Poltergeist.WebPage;
